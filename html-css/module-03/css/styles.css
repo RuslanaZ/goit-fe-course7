@@ -35,7 +35,7 @@
     color: black;
  }
 
- .blocks div h2 {
+ .blocks article h2 {
     font-size: 30px;
     color: #626262;
     line-height: 36px;
@@ -46,31 +46,34 @@
     padding-top: 100px;
  }
 
-.blocks span {
-    display:block;
+.signature {
+    display: block;
     font-family: 'Ubuntu', sans-serif; 
     text-transform: uppercase;
-    color: #b4ad9e;
     margin-bottom: 35px;
+    color: #b4ad9e;
 }
 
-.blocks div {
+.blocks article {
     display: inline-block;
     width: 420px; 
-    margin-left: -4px;
  }
 
  .first, .third, .fifth {
-     margin-right: 60px;
+    margin-right: 60px;
  }
 
  .first, .second, .third, .fourth {
     margin-bottom: 135px;
  }
 
+ .second, .fourth, .sixth {
+    margin-left: -4px;
+ }
+
+
  .sixth, .fifth {
-    margin-bottom: 0px;
-    padding-bottom: 55px;
+    margin-bottom: 55px;
  }
 
  .img {

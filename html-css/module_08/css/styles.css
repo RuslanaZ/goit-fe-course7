@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+   min-width: 320px;
+   margin: 0 auto;
+}  
+
+.background {
+    background-image: url(../images/backgraund1.png);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-color: #000000;
+    background-size: cover;  
+}
+
+.mastheader {
+    margin-bottom: 2.5rem;
+}
+
+.menu {
+    margin-bottom: 7.2rem;
+}
+
+
+.logo, .menu_item a {
+    text-decoration: none;
+    color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.menu_item {
+    margin-right: 1.25rem;
+    display: inline-block;
+}
+
+.item {
+    width: 5.3rem;
+    height: 2.2rem;
+    border-radius: 1.25rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.item:hover {
+    border: 0.1rem solid #ffffff; 
+}
+.menu_item:last-child {
+    margin-right: 0px;
+}
+
+.container { 
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 1.25rem;
+    padding-bottom: 8.4rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    text-align: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper_section h2 {
+    color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+.wrapper_section span {
+    display: block;
+    margin-bottom: 1.25rem;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.button {
+   width: 280px;
+   height: 40px; 
+   text-align: center;
+   border: none;
+  border-radius: 1.25rem;
+  background-color: #ff4e50;
+  color: #ffffff;
+    
+}
+ 
+.section_partners {
+    width: 320px;
+}
+
+.wrapper_section_partners {
+    text-align: center;
+    padding-top: 4.4rem;
+    padding-bottom: 3.4rem;
+}
+
+.subtitle_section {
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.partners_card {
+    padding: 0 30px;
+    margin-bottom: 1.8rem;
+}
+
+.card {
+    width: 260px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.img_card {
+    display: block; 
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0.3rem;
+}
+
+.card_button {
+    position: absolute;
+    top: 6rem;
+    right: 5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    border: 0.2rem solid #ffffff;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.tv {
+    background-image: url(../images/icons/128.png);
+    background-color: #ff4e50;
+}
+
+.vial {
+    background-image: url(../images/icons/155.png);
+    background-color: #ffa507;
+}
+
+.cup {
+    background-image: url(../images/icons/153.png);
+    background-color: #1cd7ad;
+}
+.aircraft {
+    background-image: url(../images/icons/170.png);
+    background-color: #4e73db;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden, 
+input[type='radio'].visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.name {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.about {
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-bottom: 1.25rem;
+}
+
+.section_partners_button {
+   width: 280px;
+   height: 40px; 
+   display:block;
+   margin:auto;
+   text-align: center;
+   border: 0.1rem solid #ff4e50;
+   border-radius: 1.25rem;
+   background: transparent;
+   color: #ff4e50;
+}
+
+@media (min-width: 768px) {
+
+.background {
+    min-width: 768px;
+    background-image: url(../images/backgraund3.png);
+    }
+
+    .mastheader {
+        position: relative;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    .menu {
+        float: right;
+        margin-bottom: 0;
+    }
+
+    .logo {
+        float: left;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        
+    }
+
+    .clearfix::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    .container {
+        width: 660px;
+        min-height: 43.75rem;
+        padding: 0;
+        padding-top: 2.1rem;
+    }
+
+    .wrapper_section {
+        padding: 0 1.25rem;
+    }
+
+    .wrapper_section h2 {
+        font-size: 3.25rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .wrapper_section span {
+        margin-bottom: 1.8rem;
+    }
+
+    .button {
+        width: 14rem;
+    }
+
+    .section_partners {
+        width: 660px;
+        margin: 0 auto;
+    }
+
+       
+
+    .card {
+        width: 235px;
+        margin-bottom: 3.4rem;
+    }
+
+    .card:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+
+    .card_button {
+        right: 4rem;
+    }
+
+    .section_partners_button {
+        width: 196px;
+        font-weight: bold;
+    }
+
+    .partners_card {
+        padding: 0;
+    }
+
+    .partners_card ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .wrapper_section_partners {
+        padding: 4.6rem 4rem 2.5rem;
+    }
+
+    .subtitle_section {
+        margin-bottom: 2.2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .background {
+        min-width: 1440px;
+        background-image: url(../images/backgraund2.png);
+    }
+
+    .container {
+        width: 940px;
+    }
+    .wrapper_section{
+        padding: 0 10rem;
+    }
+
+    .wrapper_section span {
+        font-size: 1.5rem;
+        margin-bottom: 2.1rem;
+    }
+    
+    .button {
+        width: 14.2rem;
+    }
+
+    .section_partners {
+        width: 940px;
+    }
+
+    .card {
+        width: 220px;
+        margin-bottom: 0;
+    }
+
+    .wrapper_section_partners {
+        padding: 4.4rem 0;
+    }
+}
